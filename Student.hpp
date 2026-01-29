@@ -7,14 +7,13 @@ string name;
 int age; 
 public:
 Student(){
-name = ""
+name = "";
 age = 0;
 cout << "Student object created!" << endl;
 }
 ~Student(){
 cout << "Student object destroyed!" << endl;
 }
-
 void setName(string s){
 name = s;
 }
